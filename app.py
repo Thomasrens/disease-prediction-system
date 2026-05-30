@@ -18,6 +18,15 @@ heart_model = joblib.load("heart_model.pkl")
 st.sidebar.title("🏥 MediInsight")
 st.sidebar.markdown("AI-Driven Disease Prediction Framework")
 
+st.info("""
+Welcome to MediInsight.
+
+This platform uses Machine Learning algorithms to analyze medical parameters
+and provide disease risk predictions for Diabetes and Heart Disease.
+
+⚠️ This system is intended for educational and research purposes only.
+""")
+
 selected_disease = st.sidebar.selectbox(
     "Select Disease",
     [
