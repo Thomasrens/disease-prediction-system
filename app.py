@@ -41,7 +41,7 @@ st.sidebar.info(
 
 if selected_disease == "Diabetes Prediction":
 
-    st.title("🧠 AI Diabetes Prediction")
+    st.title("🩸 Diabetes Risk Assessment")
 
     st.write("Enter patient details below")
 
