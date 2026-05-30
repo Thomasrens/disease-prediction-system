@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(
     page_title="MediInsight",
     page_icon="🏥",
-    layout="centered"
+    layout="wide"
 )
 
 # Load models
