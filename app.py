@@ -5,8 +5,8 @@ import plotly.express as px
 
 # Page settings
 st.set_page_config(
-    page_title="Multi Disease Prediction System",
-    page_icon="🩺",
+    page_title="MediInsight",
+    page_icon="🏥",
     layout="centered"
 )
 
@@ -15,7 +15,8 @@ diabetes_model = joblib.load("best_model.pkl")
 heart_model = joblib.load("heart_model.pkl")
 
 # Sidebar
-st.sidebar.title("🩺 Disease Prediction System")
+st.sidebar.title("🏥 MediInsight")
+st.sidebar.markdown("AI-Driven Disease Prediction Framework")
 
 selected_disease = st.sidebar.selectbox(
     "Select Disease",
