@@ -25,7 +25,9 @@ selected_disease = st.sidebar.selectbox(
         "Heart Disease Prediction"
     ]
 )
-
+st.title("🏥 MediInsight")
+st.subheader("AI-Driven Disease Prediction Framework")
+st.markdown("---")
 st.sidebar.info(
     """
     AI-powered healthcare prediction system
